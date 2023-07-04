@@ -3,7 +3,7 @@ module.exports = {
   description: "每天学一点,进步多一点",
   extend: "@vuepress/theme-default",
   plugins: ["@vuepress/back-to-top"],
-  base: "/",
+  base: "/vuepress_admin/",
   head: [
     [
       "link",
