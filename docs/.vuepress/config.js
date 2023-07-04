@@ -58,7 +58,7 @@ module.exports = {
       { text: "源码", link: "https://github.com/2662419405/vuepress_admin" },
       {
         text: "工作tips",
-        link: "/tips",
+        link: "/tips/",
       },
       {
         text: "SunHang",
@@ -287,7 +287,7 @@ module.exports = {
           children: ["answer"],
         },
       ],
-      "/tips": [],
+      "/tips/": [""],
       xmind: [""],
     },
   },
