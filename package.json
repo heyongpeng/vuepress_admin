@@ -19,7 +19,7 @@
   "devDependencies": {
     "@vuepress/plugin-active-header-links": "^1.2.0",
     "@vuepress/plugin-back-to-top": "^1.2.0",
-    "husky": "^8.0.3",
+    "husky": "^4.3.8",
     "vuepress": "^1.0.0-rc.1"
   },
   "dependencies": {
