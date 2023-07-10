@@ -55,32 +55,29 @@ module.exports = {
       { text: "面试题", link: "/code/" },
       { text: "思维导图", link: "/xmind/" },
       { text: "最后冲刺", link: "/once/" },
-      { text: "源码", link: "https://github.com/2662419405/vuepress_admin" },
-      {
-        text: "工作tips",
-        link: "/tips/",
-      },
-      {
-        text: "SunHang",
-        items: [
-          {
-            text: "博客园",
-            link: "https://www.cnblogs.com/sunhang32",
-          },
-          {
-            text: "个人博客",
-            link: "https://sunhang.top/",
-          },
-          {
-            text: "CSDN",
-            link: "https://blog.csdn.net/qq_43268396",
-          },
-          {
-            text: "github",
-            link: "https://github.com/2662419405",
-          },
-        ],
-      },
+      { text: "源码", link: "https://github.com/heyongpeng/vuepress_admin" },
+      { text: "工作tips", link: "/tips/" },
+      // {
+      //   text: "SunHang",
+      //   items: [
+      //     {
+      //       text: "博客园",
+      //       link: "https://www.cnblogs.com/sunhang32",
+      //     },
+      //     {
+      //       text: "个人博客",
+      //       link: "https://sunhang.top/",
+      //     },
+      //     {
+      //       text: "CSDN",
+      //       link: "https://blog.csdn.net/qq_43268396",
+      //     },
+      //     {
+      //       text: "github",
+      //       link: "https://github.com/2662419405",
+      //     },
+      //   ],
+      // },
     ],
     sidebarDepth: 2,
     sidebar: {
@@ -287,7 +284,14 @@ module.exports = {
           children: ["answer"],
         },
       ],
-      "/tips/": [""],
+      "/tips/": [
+        "",
+        // {
+        //   title: "44道js难题",
+        //   collapsable: true,
+        //   children: ["first"],
+        // },
+      ],
       xmind: [""],
     },
   },
